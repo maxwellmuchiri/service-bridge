@@ -1,7 +1,8 @@
 // App.js
 import React from 'react';
-import './App.css'; // Import the CSS file
+import './App.css';// Import the CSS file
 import Navbar from './components/Navbar';// Import the Navbar component
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
         <h1>Welcome to My App</h1>
         {/* Other components and content */}
       </div>
+      <Footer /> {/* Render the Footer component */}  
     </div>
   );
 }
