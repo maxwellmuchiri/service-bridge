@@ -1,23 +1,5 @@
 /* App.css */
 
-/* Styles for the App component */
-.app-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #f0f0f0;
-}
-
-.app-title {
-  color: #333;
-  font-size: 24px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-/* Styles for the NavBar component */
-/* App.css */
-
 .navbar {
   background-color: #333;
   padding: 10px;
@@ -27,21 +9,29 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
 }
 
 .navbar li {
-  display: inline;
   margin-right: 20px;
+}
+
+.navbar li:last-child {
+  margin-right: 0;
 }
 
 .navbar a {
   text-decoration: none;
   color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
 .navbar a:hover {
-  color: #ffd700;
+  background-color: #fff;
+  color: #333;
 }
+
 /* App.css  for footer*/
 
 .footer {
