@@ -1,15 +1,18 @@
 // App.js
-import React from 'react';
-import './App.css';// Import the CSS file
-import Navbar from './components/Navbar';// Import the Navbar component
-import Footer from './components/Footer';
 
+
+
+import React from 'react';
+import './App.css'; // Import the CSS file
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import LandingPage from './components/Landingpage';
 const App = () => {
   return (
     <div>
       <Navbar /> {/* Render the Navbar component */}
+      <LandingPage /> {/* Render the LandingPage component */}
       <div className="content">
-        <h1>Welcome to My App</h1>
         {/* Other components and content */}
       </div>
       <Footer /> {/* Render the Footer component */}  
@@ -18,5 +21,3 @@ const App = () => {
 }
 
 export default App;
-
-
