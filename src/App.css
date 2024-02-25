@@ -77,6 +77,9 @@
 }
 
 
+
+/* LandingPage.css */
+
 /* Landing Page */
 .landing-page {
   display: flex;
@@ -85,6 +88,7 @@
   justify-content: space-between;
   padding: 20px;
   background-color: #f8f9fa; /* Light gray background color */
+  min-height: 100vh; /* Set minimum height to fill the viewport */
 }
 
 .landing-content {
@@ -120,4 +124,46 @@
     width: 80%; /* Set the width of the image to 80% on smaller screens */
     margin-top: 20px; /* Add margin on top for spacing */
   }
+}
+
+/* Additional styles for the landing details */
+.landing-details {
+  max-width: 800px; /* Set maximum width for content */
+}
+
+.landing-details h2 {
+  font-size: 2rem; /* Adjust the font size of the section headings */
+  margin-top: 40px; /* Space above the section headings */
+}
+
+.landing-details ul {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0;
+}
+
+.landing-details li {
+  margin-bottom: 10px; /* Space between list items */
+}
+
+.popular-projects, .testimonials, .how-it-works {
+  margin-top: 40px; /* Space between sections */
+}
+
+.popular-projects h3, .testimonials h3, .how-it-works h2 {
+  font-size: 1.5rem; /* Adjust the font size of subheadings */
+  margin-bottom: 20px; /* Space below subheadings */
+}
+
+.popular-projects p, .testimonials p {
+  font-size: 1.2rem; /* Adjust the font size of paragraph content */
+  margin-bottom: 10px; /* Space below paragraph content */
+}
+
+.how-it-works ol {
+  list-style-type: decimal; /* Use decimal numbering for ordered list */
+  padding-left: 20px; /* Indent ordered list content */
+}
+
+.how-it-works ol li {
+  margin-bottom: 10px; /* Space between ordered list items */
 }
